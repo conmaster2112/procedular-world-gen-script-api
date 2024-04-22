@@ -39,7 +39,7 @@ Custom biomes are just simple definitions of what grows here.
 I recommend you check out this file [here](./behavior_pack/scripts/my_world/biomes.js), it contains a lot of information about custom biomes.
 
 # Debug Info
-I have implemented basic command for showing debug infor while traveling. Just type "!debug" in chat.
+I have implemented basic command for showing debug info while traveling. Just type "!debug" in chat.
 
 ![](./images/debug_info.png)
 
