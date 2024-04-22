@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Con - World Gen",
+        "description": "Procedular world gen by §eConMAster2112",
+        "uuid": "bfcaad74-580e-4b4a-b2c1-ea27fac98d6c",
+        "version": "1.0.0-alpha",
+        "min_engine_version": [1,21,0]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "uuid": "927f40c0-31c3-478a-9ff9-8e0b77c1be54",
+            "entry": "scripts/index.js",
+            "version": [ 0, 1, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        },
+        {
+            "uuid":"80a95f61-57dd-47d8-b87c-38e6ccc36ca7", "version": "1.0.0-alpha"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "my_pack:default_color_grading"
+    },
+    "color_grading": {
+      "midtones": {
+        "contrast": [0.9, 0.9, 0.8],
+        "gain": [1.9, 1.9, 1.9],
+        "gamma": [1.4, 1.4, 1.4],
+        "offset": [0, 0, 0],
+        "saturation": [0.83, 0.83, 0.83]
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
+    }
+  }
+}

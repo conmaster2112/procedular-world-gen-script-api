@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.1.json",
+	"author": "conmaster2112",
+	"name": "world-edit-release",
+	"packs": {
+		"behaviorPack": "./behavior_pack",
+		"resourcePack": "./resource_pack"
+	},
+	"regolith": {
+		"dataPath": "./.regolith/data",
+		"filterDefinitions": {},
+		"profiles": {
+			"default": {
+				"export": {
+					"readOnly": false,
+					"target": "preview"
+				},
+				"filters": []
+			}
+		}
+	}
+}

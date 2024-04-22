@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Con - World Gen + Deferred PBR",
+        "description": "This texture pack is adding deferred pbr support styled for World Gen project by §eConMAster2112",
+        "uuid": "80a95f61-57dd-47d8-b87c-38e6ccc36ca7",
+        "version":"1.0.0-alpha",
+        "min_engine_version": [1,21,0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "eec2ff9e-fa92-4c35-b3fa-5c62800cfcf1",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "capabilities": [ "pbr" ],
+    "dependencies": [
+        {
+            "uuid":"bfcaad74-580e-4b4a-b2c1-ea27fac98d6c", "version":"1.0.0-alpha"}
+    ]
+}

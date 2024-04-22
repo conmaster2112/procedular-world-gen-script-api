@@ -1,0 +1,9 @@
+{
+    "biomes": {
+      "default": {
+        "water_surface_color": "#000044",
+        "water_surface_transparency": 1.65,
+        "fog_identifier": "pbr:fog_default"
+      }
+    }
+}
